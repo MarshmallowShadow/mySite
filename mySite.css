@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "clearfix.css";
+
+/* **************레이아웃************** */
+#wrap {
+	margin: 0px auto;
+	width: 1000px;
+}
+
+#wrap > #header {
+	border-bottom: 1px solid #bfbfbf;
+	padding: 10px 0px;
+}
+
+#wrap > #nav {
+	padding: 20px 10px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#wrap > #contents {
+	background-color: #ffe0be;
+}
+
+#wrap > #footer {
+	padding: 30px 0px;
+	background-color: #bfbfbf;
+}
+
+/* **************header (h1, 로그인, 회원가입)************** */
+#header h1 {
+	float: left;
+	color: #79b30b;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#header ul {
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+
+#header ul>li {
+	float: left;
+	margin: 0px 0px 0px 20px;
+	font-size: 13px;
+}
+
+/* ************** nav (네비게이션 바) ************** */
+#nav ul>li {
+	float: left;
+	margin: 0px 90px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* ************** contents ************** */
+#contents img {
+	float: left;
+	width: 25%;
+	height: 25%;
+	padding: 25px;
+}
+
+#contents .desc {
+	padding: 20px;
+}
+
+#contents h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#contents p {
+	padding: 5px;
+}
+
+/* ************** footer ************** */
+#footer p {
+	text-align: center;
+	font-size: 12px;
+}
