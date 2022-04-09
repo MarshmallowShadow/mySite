@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "clearfix.css";
+@import "mySite.css";
+
+/* **************추가 레이아웃************** */
+#wrap > #contents > #aside {
+	float: left;
+	width: 150px;
+}
+
+#wrap > #contents > #main {
+	float: left;
+	width: 830px;
+	padding: 10px;
+}
+
+#wrap > #contents > #main > #subheader {
+	margin: 30px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#searchbar {
+	padding: 10px 0px;
+}
+
+/* ************** aside (게시판 사이드바) ************** */
+#aside h2 {
+	background-color: #bfbfbf;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 10px 0px;
+}
+
+#aside ul>li {
+	border: 1px solid #bfbfbf;
+	padding: 5px 5px;
+	margin: 5px 0px;
+}
+
+/* ************** subheader (게시판 사이드바) ************** */
+#subheader h2 {
+	float: left;
+}
+#subheader ul>li {
+	float: right;
+	font-size: 13px;
+}
+#subheader ul>li:after {
+	content: ">";
+	margin: 0px 5px
+}
+#subheader ul>li.last:after {
+	content: none;
+}
+
+/* ************** searchbar (검색 바) ************** */
+#searchbar form {
+	float: right;
+}
+
+button, input[type="text"] {
+	padding: 5px 10px;
+}
+
+/* ************** post-list ************** */
+#post-list table {
+	width: 100%;
+	margin: 20px 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#post-list thead {
+	background-color: #bfbfbf;
+	font-weight: bold;
+}
+
+#post-list th {
+	padding: 7px 0px;
+}
+
+#post-list td {
+	text-align: center;
+	border-top: 1px solid #bfbfbf;
+	padding: 5px 0px;
+}
+
+#post-list ol {
+	text-align: center;
+	padding-left: 200px;
+}
+
+#post-list ol>li {
+		float: left;
+		margin: 0px 10px;
+		font-size: 12px;
+}
+
+#post-list button {
+	float: right;
+}

@@ -19,7 +19,7 @@
 }
 
 #wrap > #contents {
-	background-color: #ffe0be;
+	
 }
 
 #wrap > #footer {
@@ -28,7 +28,7 @@
 }
 
 /* **************header (h1, 로그인, 회원가입)************** */
-#header h1 {
+#header h1 a {
 	float: left;
 	color: #79b30b;
 	font-size: 35px;
@@ -80,3 +80,4 @@
 	text-align: center;
 	font-size: 12px;
 }
+
