@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import "mySite.css";
+@import "reset.css";
+@import "clearfix.css";
+
+/* ************** contents ************** */
+#wrap > #contents {
+	padding: 40px 20px;
+}
+
+#contents img {
+	float: left;
+	width: 25%;
+	height: 25%;
+}
+
+#contents #intro {
+	float: left;
+	padding: 0px 20px;
+}
+
+.geetings {
+	font-weight: bold;
+	font-size: 20px;
+}
+

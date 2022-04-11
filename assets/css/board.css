@@ -1,18 +1,17 @@
 @charset "UTF-8";
 @import "reset.css";
-@import "clearfix.css";
 @import "mySite.css";
 
 /* **************추가 레이아웃************** */
 #wrap > #contents > #aside {
 	float: left;
 	width: 150px;
+	padding: 10px;
 }
 
 #wrap > #contents > #main {
 	float: left;
 	width: 830px;
-	padding: 10px;
 }
 
 #wrap > #contents > #main > #subheader {
@@ -20,8 +19,8 @@
 	border-bottom: 1px solid #bfbfbf;
 }
 
-#searchbar {
-	padding: 10px 0px;
+#wrap > #contents > #main > #post-list {
+	padding: 5px 0px;
 }
 
 /* ************** aside (게시판 사이드바) ************** */
@@ -66,7 +65,7 @@ button, input[type="text"] {
 /* ************** post-list ************** */
 #post-list table {
 	width: 100%;
-	margin: 20px 0px;
+	margin: 10px 0px;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
