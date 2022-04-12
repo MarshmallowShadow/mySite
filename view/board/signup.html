@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>회원가입</title>
+		<link rel="stylesheet" href="../../assets/css/signup.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header" class="clearfix">
+				<h1><a href="../main/index.html">MySite</a></h1>
+				<!-- 로그인 기능 미완성 -->
+				<ul class="clearfix">
+					<li><a href="../board/signup.html">회원가입</a></li>
+					<li><a href="">로그인</a></li>
+				</ul>
+			</div>
+			
+			<!-- 네비게이션 바 링크 생기면 추가 필수 -->
+			<div id="nav" class="clearfix">
+				<ul>
+					<li><a href="">입사지원서</a></li>
+					<li><a href="../board/list.html">게시판</a></li>
+					<li><a href="">갤러리</a></li>
+					<li><a href="">방명록</a></li>
+				</ul>
+			</div>
+			
+			<div id="contents" class="clearfix">
+				<div id="main-header" class="clearfix">
+					<h2>회원가입</h2>
+					
+					<ul>
+						<li class="last"><a href="../board/signup.html">회원가입</a></li>
+						<li><a href="../main/index.html">홈</a></li>
+					</ul>
+				</div>
+				<form>
+					<div id="main-body" class="clearfix">
+						<table>
+							<colgroup>
+								<col style="width: 100px;">
+							</colgroup>
+							<tr>
+								<th><label for="txt-id">아이디</label></th>
+								<td><input id="txt-id" type="text" placeholder="아이디를 입력하세요"></td>
+							</tr>
+							<tr>
+								<th><label for="txt-password">패스워드</label></th>
+								<td><input id="txt-password" type="password" placeholder="비밀번호를 입력하세요"></td>
+							</tr>
+							<tr>
+								<th><label for="txt-name">이름</label></th>
+								<td><input id="txt-name" type="text" placeholder="이름을 입력하세요"></td>
+							</tr>
+							<tr>
+								<th><label for="file-profile">프로필사진</label></th>
+								<td><input id="file-profile" type="file"></td>
+							</tr>
+							<tr>
+								<th><label for="txt-postcode">주소</label></th>
+								<td>
+									<input id="txt-postcode" type="text" placeholder="우편번호">
+									<button class="small">우편번호찾기</button>
+									<br>
+									<input id="txt-address" type="text" placeholder="주소">
+								</td>
+							</tr>
+							<tr>
+								<th><label for="sel-telecom">이동통신사</label></th>
+								<td>
+									<select id="sel-telecom">
+										<option>선택해주세요</option>
+										<option>SKT</option>
+										<option>KT</option>
+										<option>LG U+</option>
+										<option>기타</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th><label>나이</label></th>
+								<td>
+									<label for="rdo-10">10대</label>
+									<input id="rdo-10" name="age" type="radio">
+									<label for="rdo-20">20대</label>
+									<input id="rdo-20" name="age" type="radio">
+									<label for="rdo-30">30대</label>
+									<input id="rdo-30" name="age" type="radio">
+									<label for="rdo-40">40대</label>
+									<input id="rdo-40" name="age" type="radio">
+									<label for="rdo-others">기타</label>
+									<input id="rdo-others" name="age" type="radio">
+								</td>
+							</tr>
+							<tr>
+								<th><label>취미</label></th>
+								<td>
+									<label for="chk-books">책</label>
+									<input id="chk-books" name="hobby" type="checkbox">
+									<label for="chk-music">여행</label>
+									<input id="chk-music" name="hobby" type="checkbox">
+									<label for="chk-travel">음악</label>
+									<input id="chk-travel" name="hobby" type="checkbox">
+									<label for="chk-movies">영화</label>
+									<input id="chk-movies" name="hobby" type="checkbox">
+									<label for="chk-coding">코딩</label>
+									<input id="chk-coding" name="hobby" type="checkbox">
+									<label for="chk-others">기타</label>
+									<input id="chk-others" name="hobby" type="checkbox">
+								</td>
+							</tr>
+							<tr>
+								<th class="last"><label for="txt-intro">자기소개</label></th>
+								<td class="last"><textarea id="txt-intro"></textarea></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="main-footer" class="clearfix">
+						<button>가입</button>
+						<button type="reset">초기화</button>
+					</div>
+				</form>
+			</div>
+			
+			<div id="footer" class="clearfix">
+				<p>Copyright Ⓒ 2022 Marshmallow Shadow. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

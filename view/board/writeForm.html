@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>글쓰기</title>
+		<link rel="stylesheet" href="../../assets/css/board.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header" class="clearfix">
+				<h1><a href="../main/index.html">MySite</a></h1>
+				<ul>
+					<li><a href="../board/signup.html">회원가입</a></li>
+					<li><a href="">로그인</a></li>
+				</ul>
+			</div>
+			
+			<div id="nav" class="clearfix">
+				<ul>
+					<li><a href="">입사지원서</a></li>
+					<li><a href="../board/list.html">게시판</a></li>
+					<li><a href="">갤러리</a></li>
+					<li><a href="">방명록</a></li>
+				</ul>
+			</div>
+			
+			<div id="contents" class="clearfix">
+				<div id="aside">
+					<h2>게시판</h2>
+					<!-- 게시판 링크 생기면 추가 필수 -->
+					<ul>
+						<li><a href="./list.html">일반 게시판</a></li>
+						<li><a href="">댓글 게시판</a></li>
+						<li><a href="">첨부 게시판</a></li>
+					</ul>
+				</div>
+				
+				<div id="main" class="clearfix">
+					<div id="main-header" class="clearfix">
+						<h2>일반개시판</h2>
+						
+						<ul>
+							<li class="last"><a href="./writeForm.html">글쓰기</a></li>
+							<li><a href="./list.html">일반게시판</a></li>
+							<li><a href="../board/list.html">게시판</a></li>
+							<li><a href="../main/index.html">홈</a></li>
+						</ul>
+					</div>
+					
+					<form>
+						<div id="main-body" class="clearfix">
+							<div class="form-group">
+								<label for="sel-board" class="form-title">게시판선택</label>
+								<select id="sel-board">
+									<option>선택헤 주세요</option>
+									<option>일반 게시판</option>
+									<option>댓글 게시판</option>
+									<option>첨부 게시판</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+								<label for="txt-title" class="form-title">제목</label>
+								<input id="txt-title" type="text">
+							</div>
+							
+							<div class="form-group">
+								<label for="txt-password" class="form-title">비밀번호</label>
+								<input id="txt-password" type="password">
+							</div>
+							
+							<div class="form-group">
+								<label class="form-title">공계범위</label>
+								<label for="rdo-self">본인</label>
+								<input id="rdo-self" name="view-range" type="radio">
+								<label for="rdo-member">로그인회원</label>
+								<input id="rdo-member" name="view-range" type="radio">
+								<label for="rdo-friend">친구</label>
+								<input id="rdo-friend" name="view-range" type="radio">
+								<label for="rdo-all">전체</label>
+								<input id="rdo-all" name="view-range" type="radio">
+							</div>
+							
+							<div class="form-group">
+								<label class="form-title">허용범위</label>
+								<label for="chk-comment">댓글허용</label>
+								<input id="chk-comment" type="checkbox">
+								<label for="chk-reply">답글허용</label>
+								<input id="chk-reply" type="checkbox">
+								<label for="chk-like">좋아요허용</label>
+								<input id="chk-like" type="checkbox">
+							</div>
+							
+							<div class="form-group">
+								<textarea id="txt-content"></textarea>
+							</div>
+							
+							<div class="form-group">
+								<label for="file-submit" class="form-title">첨부파일</label>
+								<input id="file-submit" type="file">
+							</div>
+						</div>
+						
+						<div id="main-footer">
+							<button>등록</button>
+							<button type="reset">초기화</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="footer" class="clearfix">
+				<p>Copyright Ⓒ 2022 Marshmallow Shadow. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

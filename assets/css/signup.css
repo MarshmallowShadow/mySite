@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import "mySite.css";
+@import "reset.css";
+@import "clearfix.css";
+
+/* **************추가 레이아웃************** */
+#wrap > #contents > #main-header {
+	margin: 30px 0px 0px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#wrap > #contents #main-footer {
+	padding: 20px 0px;
+	text-align:center;
+}
+
+/* ************** main-header (게시판 헤더) ************** */
+#main-header h2 {
+	float: left;
+}
+#main-header ul>li {
+	float: right;
+	font-size: 13px;
+}
+#main-header ul>li:after {
+	content: ">";
+	margin: 0px 5px
+}
+#main-header ul>li.last:after {
+	content: none;
+}
+
+/* ************** form ************** */
+table {
+	width: 700px;
+}
+
+th, td {
+	padding: 5px 0px;
+	border-bottom: 1px solid #bfbfbf;
+	text-align: left;
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 2;
+}
+
+th.last, td.last {
+	border-bottom: none;
+}
+
+input[type="text"], input[type="password"], select {
+	padding: 0px;
+}
+
+button.small {
+	padding: 0px;
+	font-size: 13px;
+}
+#txt-address {
+	width: 400px;
+}
+#txt-intro {
+	width: 400px;
+	height: 100px;
+}

@@ -61,8 +61,41 @@
 	font-size: 20px;
 }
 
+div.btn {
+	float:right;
+	width: 50px;
+	padding: 5px 0px;
+	background-color: #bfbfbf;
+	border: 1px solid #000;
+	font-size: 13px;
+	text-align: center;
+}
+
 /* ************** footer ************** */
 #footer p {
 	text-align: center;
 	font-size: 12px;
+}
+
+/* ************** form전용 ************** */
+form {
+	font-size: 13px;
+}
+
+form #main-body {
+	padding: 10px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+input[type="text"], input[type="password"], select {
+	width: 150px;
+	padding: 5px 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin: 0px 20px 0px 0px;
+}
+
+button {
+	padding: 5px 10px;
 }
